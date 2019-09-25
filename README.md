@@ -13,8 +13,8 @@ client.getQuestion('question ID').then(question => { /* ex: question.answers */ 
 
 // being logged in is required for responding and asking questions
 client.on('logged_in', token => { // token is the 'x-b-token-long' header used for authorization in requests
-client.addResponse('question ID', 'This is a response.'); // respond to a question
-client.askQuestion('This is a question.', 'Mathematics', 10).then(console.log); // ask a question for 10 points in the Mathematics category
+  client.addResponse('question ID', 'This is a response.'); // respond to a question
+  client.askQuestion('This is a question.', 'Mathematics', 10).then(console.log); // ask question for 10 points in the Mathematics category
 });
 ```
 
