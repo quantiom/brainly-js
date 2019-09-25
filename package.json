@@ -1,0 +1,23 @@
+{
+  "name": "brainly-js",
+  "version": "1.0.0",
+  "description": "Interact with brainly.com in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "brainly"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quantiom/brainly-js.git"
+  },
+  "author": "quantiom",
+  "license": "ISC",
+  "dependencies": {
+    "graphql-request": "^1.8.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
