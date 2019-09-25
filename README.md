@@ -4,7 +4,7 @@ Logging in with an account is optional.
 
 ## Example
 ```js
-const Brainly = require('@quantiom/brainly-js');
+const Brainly = require('brainly-js');
 let client = new Brainly('email', 'password'); // logging in is optional
 
 // logging in is not required for these functions
@@ -22,4 +22,4 @@ client.on('logged_in', token => { // token is the 'x-b-token-long' header used f
 - `node` (https://nodejs.org)
 
 ## Installing
-`npm i @quantiom/brainly-js` , or clone the git repo.
+`npm i brainly-js` , or clone the git repo.
